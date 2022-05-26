@@ -1,0 +1,57 @@
+/* CSS for pictures of members togeter */
+.pictures-of-members-togeter {
+    max-width: 100%;
+}
+
+/* CSS for Information section */
+.information {
+    text-align: center;
+    padding: 2%;
+    margin: 3%;
+    border: 1px solid black;
+}
+
+/* CSS for h2 inside information section */
+.information h2 {
+    margin: 0;
+}
+
+/* CSS for members grid */
+.members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+/* CSS for name of members picture */
+.member h3 {
+    margin-bottom: 0.5em;
+}
+
+/* CSS for rounding members picture */
+.member img {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+/* CSS for margin the left edge of the past member */
+.past-members{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+/* same as above */
+.past-members ul {
+    list-style: disc;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-left: 4%;
+}
+
+.past-members li {
+    padding-bottom: 2%;
+}
