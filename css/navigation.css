@@ -1,0 +1,49 @@
+
+header-component{
+  background-color: lightgray;
+  }
+  
+  aside-component{
+  background-color:darkgray;
+  }
+  
+  .header-navigation,.aside-navigation{
+    list-style-type: none;
+    display: flex;
+    font-weight: bold;
+    margin:10px;
+    padding:15px;
+    border:5px, solid;
+    color:black;
+    text-size-adjust:auto;
+  }
+  
+  .header-navigation{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .club-name{
+    background-color: aqua;
+    outline: 2px solid black;
+    outline-offset: 1px; 
+  }
+  
+  .aside-navigation {
+    flex-direction: column;
+    gap: 4rem; 
+    margin-top: 20px;
+    margin-right: auto;
+  }
+  
+  a:link{
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color:black;
+  }
+  
+  a:hover{
+    color:aqua;s
+  }
