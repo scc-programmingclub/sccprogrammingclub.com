@@ -16,6 +16,7 @@ header-component{
     border:5px, solid;
     color:black;
     text-size-adjust:auto;
+    flex-wrap: wrap;
   }
   
   .header-navigation{
