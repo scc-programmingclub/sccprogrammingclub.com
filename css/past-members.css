@@ -1,11 +1,16 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 15vw);
-    grid-template-rows: repeat(auto-fill, 15vh);
-    grid-row-gap: 15vh;
-    grid-column-gap: 5vw;
-    margin: auto;
+    grid-template-columns: repeat(auto-fit, 15vw);
+    grid-template-rows: repeat(auto-fit,15vh);
+    grid-row-gap: 10vh;
+    grid-column-gap: 1vw;
+    align-items: center;
+    text-align: center;
     font-family: "Tahoma", "Courier New", sans-serif;
     font-size: 1vw;
+}
 
+.grid-gap {
+    display: grid;
+    grid-template-rows: 10vh;
 }
