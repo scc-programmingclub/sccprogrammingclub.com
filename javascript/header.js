@@ -5,7 +5,16 @@ class Header extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <p>Test text</p>
+        <link rel="stylesheet" href="../css/navigation.css">
+        <nav>
+            <ul class="header-navigation">
+                <li class="club-name">Seattle Central <br> Programming Club</li>
+                <li class="nav-item"><a href="#">Contact</li>
+                <li class="nav-item"><a href="#">Members</li>
+                <li class="nav-item"><a href="#">Socials</li>
+            </ul>
+
+        </nav>
         `
     }
 }
