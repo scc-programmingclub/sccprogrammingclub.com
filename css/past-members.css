@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 15vw);
-    grid-template-rows: repeat(auto-fit,15vh);
+    grid-template-rows: repeat(auto-fit,30vh);
     grid-row-gap: 10vh;
     grid-column-gap: 1vw;
     align-items: center;
@@ -13,4 +13,8 @@
 .grid-gap {
     display: grid;
     grid-template-rows: 10vh;
+}
+
+.grid-container img {
+    max-height: 30vh;
 }
