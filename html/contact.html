@@ -2,9 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contact SCC Programming Club</title>
+    <link rel="stylesheet" href="../css/foundation.css">
+    <script src="./javascript/header.js" type="text/javascript" defer></script>
+    <script src="./javascript/aside.js" type="text/javascript" defer></script>
 </head>
 <body>
 
+    <header-component></header-component>
+
+    <aside-component></aside-component>
+
+    <main>
+        <div id="page-body">
+            <div id="inner-page-body" style="align-content: center">
+                <h1>Contact Us</h1>
+                <form action="contact.php" method="post">
+                    <div>
+                        <label>
+                            Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" autofocus />
+                        </label>
+                    </div>
+                    <div>	
+                        <label>
+                            Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Github Username:<br /><input type="text" name="ghusername" placeholder="(optional)" tabindex="20" size="44" />
+                        </label>
+                    </div>
+                    <div>	
+                        <label>
+                            Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="What can we help you with?" tabindex="30"></textarea>
+                        </label>
+                    </div>	
+                    <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
+                    <div>
+                        <input type="submit" value="submit" />
+                    </div>
+                    </form>
+            
+            </div>
+        </div>
+    </main>
+
+    <!--
+    <footer>
+
+    </footer>
+    -->
 </body>
 </html>
