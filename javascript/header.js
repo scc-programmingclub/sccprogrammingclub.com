@@ -5,7 +5,6 @@ class Header extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <link rel="stylesheet" href="../css/navigation.css">
         <nav>
             <ul class="header-navigation">
                 <li class="club-name">Seattle Central <br> Programming Club</li>

@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
 }
 
 /*CSS for html*/
@@ -55,6 +54,14 @@ aside-component{
     background-color: greenyellow;
 }
 
+/*CSS for footer*/
+footer-component {
+    grid-column: 1/3;
+    grid-row: 3/4;
+
+    background-color: rgb(34, 35, 60);
+}
+
 /*CSS for main (contains page body and inner page body)*/
 main{
     grid-column: 2/3;
@@ -70,14 +77,6 @@ main{
     /*BACKGROUND COLOR TO SHOW WHERE THIS IS LOCATED ON PAGE*/
     background-color: aqua;
 
-}
-
-/*CSS for footer*/
-footer-component {
-    grid-column: 1/3;
-    grid-row: 3/4;
-
-    background-color: rgb(34, 35, 60);
 }
 
 /*CSS for page-body (contains inner page body; allows a margin to be introduced without buggy scrollbars)*/
@@ -109,15 +108,3 @@ footer-component {
     background-color: white;
 
 }
-
-/* Francisco's footer */
-
-
-
-/*
-footer p {
-    text-align: center;
-    color: gray;
-
-}
-*/
