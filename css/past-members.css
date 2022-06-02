@@ -2,11 +2,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 15vw);
     grid-template-rows: repeat(auto-fill, 15vh);
-    grid-row-gap: 10vh;
+    grid-row-gap: 15vh;
     grid-column-gap: 5vw;
-    /*padding: 3%;*/
-    justify-content: center;
-    justify-items: center;
+    margin: auto;
     font-family: "Tahoma", "Courier New", sans-serif;
     font-size: 1vw;
 
