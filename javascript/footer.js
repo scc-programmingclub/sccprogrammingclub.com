@@ -5,7 +5,6 @@ class Footer extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <link rel="stylesheet" href="../css/navigation.css">
         <nav>
             <p>Programming Club (S5656546546eatfdfsdftle Central College)</p>
             <i class="fa-brands fa-github"></i>
