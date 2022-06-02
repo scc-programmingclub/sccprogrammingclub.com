@@ -5,10 +5,17 @@ class Aside extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <p>Test text</p>
+        <link rel="stylesheet" href="../css/navigation.css">
+        <nav>
+            <ul class="aside-navigation">
+                <li class="nav-item"><a href="#">Home</li>
+                <li class="nav-item"><a href="#">Contact</li>
+                <li class="nav-item"><a href="#">Members</li>
+            </ul>
+        </nav>
         `
     }
 }
 
 
-customElements.define("aside-component", Header);
+customElements.define("aside-component", Aside);
