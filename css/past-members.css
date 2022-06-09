@@ -1,14 +1,38 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 15vw);
-    grid-template-rows: repeat(auto-fit,30vh);
+    grid-template-rows: repeat(auto-fit,40vh);
     grid-row-gap: 10vh;
     grid-column-gap: 1vw;
+    justify-content: center;
     align-items: center;
     text-align: center;
     font-family: "Tahoma", "Courier New", sans-serif;
     font-size: 1vw;
 }
+
+.grid-box{
+    display: inline-grid;
+    grid-template-rows: 10%;
+    align-self: start;
+}
+
+.name  {
+    grid-row-start: row1-start;
+    grid-row-end: 1;
+
+}
+
+.photo {
+    grid-row-start: row2-start;
+    grid-row-end: 7;
+}
+
+.quote {
+    grid-row-start: row7-start;
+    grid-row-end: 10;
+}
+
 
 .grid-gap {
     display: grid;
