@@ -5,12 +5,18 @@ class Aside extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
+
         <nav>
             <ul class="aside-navigation">
-                <li class="nav-item"><a href="#">Home</li>
-                <li class="nav-item"><a href="#">Contact</li>
-                <li class="nav-item"><a href="#">Members</li>
-            </ul>
+                <li class="nav-item"><a href="../home.html"><i class="fas fa-car"></i>Home</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+                <li class="nav-item"><a href="html/members.html">Members</a>
+                    <ul class="sub-nav-items">
+                        <li class="sub-item"><a href="#">Past Members</a></li>
+                        <li class="sub-item"><a href="#">Current Members</a></li>
+                    </ul>
+                </li>
+            </ul>  
         </nav>
         `
     }
