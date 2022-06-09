@@ -1,0 +1,9 @@
+main {
+    background: linear-gradient(to left, #fff, #000);
+}
+
+.inner-page-body {
+    background: #31493C;
+    color: #E6FAFC;
+    text-align: center;
+}
