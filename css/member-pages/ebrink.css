@@ -6,13 +6,10 @@ main {
     width: 100%;
     background: #5f66f6;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 .inner-page-body {
     color: #E6FAFC;
-
     width: 100%;
     height: 70vh;
     overflow: scroll;
@@ -50,5 +47,5 @@ p {
     width: 20vw;
     height: 20vw;
     float: left;
-    margin: 1vw;
+    margin: 2vw 2vw 2vw 4vw;
 }
