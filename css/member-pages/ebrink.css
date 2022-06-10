@@ -11,7 +11,7 @@ main {
 .inner-page-body {
     color: #E6FAFC;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     overflow: scroll;
     border-radius: 10px;
 }
