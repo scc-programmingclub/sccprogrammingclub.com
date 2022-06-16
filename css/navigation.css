@@ -1,118 +1,136 @@
-header-component{
-  background-color: rgb(171, 166, 166); 
-  right:0px;
-  left:0px;
-  position:absolute;
-  height:4.5rem;
-  }
-  
-aside-component{
-  background-color: rgb(149, 143, 143); 
-  }
-  
-  .header-navigation,.aside-navigation{
-    font-family: Arial, Helvetica, sans-serif;
-    list-style-type: none;
-    font-size:14px;
-    display: flex;
-    font-weight: bold;
-    text-size-adjust:auto;
-  }
-  
-  
-  .header-navigation{
-    flex-direction: row;
-    margin:10px;
-  }
-  
-  .club-name{
-    background-color: aqua;
-    border: 2px solid black;
-    padding: 5px;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    min-width: 150px;
-  }
-  
-  .aside-navigation {
-    top:25px;
-    flex-direction: column;
-    padding-left: 0px;
-    position:relative;
-  }
-  
-  .nav-item{
-    position:relative;
-    letter-spacing: 1px;
-    top:25px;
-  }
+header-component {
+  background-color: rgb(171, 166, 166);
+  right: 0px;
+  left: 0px;
+  height: 200px !important;
+}
 
-  .aside-navigation .nav-item{
-    padding-bottom:30px;
-    margin-left:10px;
-  }
- 
-  .header-navigation .nav-item{
-    margin-left:70px; 
-    list-style-type: none; 
-  }
-  
-  .header-navigation .nav-item .sub-nav-items{
-    transform: translateY(27%);
-  }
+aside-component {
+  background-color: rgb(149, 143, 143);
+}
 
-  .nav-item:hover a{
-    color:aqua;
-  }
+.header-navigation,
+.aside-navigation {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  font-size: 14px;
+  display: flex;
+  font-weight: bold;
+  text-size-adjust: auto;
+  justify-content: space-around;
+}
 
-  .nav-item:hover .sub-nav-items .sub-item{
-    background-color: aqua;
-    width:125px;
-    border: 2px solid black;
-    padding:2px;
-    color:black;
-  }
+img {
+  width: 20px;
+  padding-right: 5px;
+  transform: translateY(20%);
+  filter: brightness(80%);
+  border-radius: 40px 70px 70px 40px;
+}
 
-  
-  .nav-item:hover .sub-nav-items .sub-item a{
-    color:black;
-  }
- 
-  .sub-nav-items{
-    list-style-type: none;
-    position:absolute;
-    top:25px;
-    display:none;
-    font-size: 12px;
-  }
+nav {
+  margin-left: 0px;
+}
 
-  .sub-nav-items li{
-      width:130px;
-      padding-top:10px;
-  }
+.header-navigation {
+  flex-direction: row;
+  margin: 10px;
+}
 
-  .header-navigation .nav-item .sub-nav-items{
-    left:0px;
-    top:25px;
-    padding-left:0px;
-  }
+.club-name {
+  margin-left: 0;
+  background-color: aqua;
+  border: 2px solid black;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  min-width: 150px;
+}
 
-  .nav-item .sub-nav-items .sub-item:hover {
-    background-color: black;
+.aside-navigation {
+  top: 25px;
+  flex-direction: column;
+  padding-left: 0px;
+  position: relative;
+}
 
-  }
-  .nav-item .sub-nav-items .sub-item:hover a{
-    color:aqua
-  }
+.nav-item {
+  position: relative;
+  letter-spacing: 1px;
+  top: 25px;
+}
 
-  .nav-item:hover .sub-nav-items{ 
-    display:block; 
-  }
-  
-  a:link, a:visited{
-    text-decoration: none;
-    color:black;
-  }
-  
+.aside-navigation .nav-item {
+  padding-bottom: 30px;
+  margin-left: 10px;
+}
+
+.header-navigation .nav-item {
+  margin-left: 70px;
+  list-style-type: none;
+}
+
+.header-navigation .nav-item .sub-nav-items {
+  transform: translateY(25);
+}
+
+.aside-navigation .nav-item .sub-nav-items {
+  transform: translateY(30%);
+}
+
+.nav-item:hover a {
+  color: aqua;
+}
+
+.nav-item:hover .sub-nav-items .sub-item {
+  background-color: aqua;
+  width: 125px;
+  border: 2px solid black;
+  padding: 2px;
+  color: black;
+}
+
+
+.nav-item:hover .sub-nav-items .sub-item a {
+  color: black;
+}
+
+.sub-nav-items {
+  list-style-type: none;
+  position: absolute;
+  top: 25px;
+  display: none;
+  font-size: 12px;
+}
+
+.sub-nav-items li {
+  width: 130px;
+  padding-top: 10px;
+}
+
+.header-navigation .nav-item .sub-nav-items {
+  left: 0px;
+  top: 25px;
+  padding-left: 0px;
+}
+
+.nav-item .sub-nav-items .sub-item:hover {
+  background-color: black;
+
+}
+
+.nav-item .sub-nav-items .sub-item:hover a {
+  color: aqua
+}
+
+.nav-item:hover .sub-nav-items {
+  display: block;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
