@@ -5,15 +5,23 @@ main {
 .page-body {
     width: 100%;
     background: #5f66f6;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .inner-page-body {
     color: #E6FAFC;
     width: 100%;
     height: 80vh;
-    overflow: scroll;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "banner banner banner banner"
+    "text text text projects"
+    "text text text projects"
+    "text text text projects"
+    ;
 }
 
 h1, h2, h3 {
@@ -22,11 +30,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    background: rgb(252, 227, 4);
-    color: #000;
     margin-top: 2vh;
-    border-top: 1vh dashed #000;
-    border-bottom: 1vh dashed #000;
     font-size: 7vh;
 }
 
@@ -48,4 +52,37 @@ p {
     height: 20vw;
     float: left;
     margin: 2vw 2vw 2vw 4vw;
+}
+
+#projects li {
+    list-style: none;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 2vh 0;
+    background: #246EB9;
+    height: 7vh;
+    width: 10vh;
+    border-radius: 50%;
+    margin: 1.5vh .5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects li a {
+    color: #fff;
+}
+
+#projects li:hover {
+    color: #F5EE9E;
+    background: rgb(227, 96, 96);
+}
+
+#projects {
+    grid-area: projects;
+    padding: 1vh;
+}
+
+#text {
+    grid-area: text;
+    overflow: scroll;
 }
