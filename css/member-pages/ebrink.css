@@ -111,3 +111,20 @@ p {
 #top, #one, #two, #three, #four, #five, #six {
     visibility: hidden;
 }
+
+#about-links {
+    display: flex;
+    justify-content: center;
+}
+
+#about-links a {
+    margin: 1vh;
+}
+
+.helvetica {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:visited {
+    color: rgb(55, 53, 53);
+}
