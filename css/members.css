@@ -1,3 +1,8 @@
+/* CSS for the title(h1) */
+h1 {
+    margin-bottom: 3%;
+}
+
 /* CSS for pictures of members togeter */
 .pictures-of-members-togeter {
     max-width: 100%;
@@ -6,14 +11,14 @@
 /* CSS for Information section */
 .information {
     text-align: center;
-    padding: 2%;
-    margin: 3%;
+    padding: 3%;
+    margin: 5%;
     border: 1px solid black;
 }
 
 /* CSS for h2 inside information section */
 .information h2 {
-    margin: 0;
+    margin-bottom: 0.4em;
 }
 
 /* CSS for members grid */
@@ -24,6 +29,11 @@
 
     text-align: center;
     margin-bottom: 4%;
+}
+
+/* CSS for member's bottom margin */
+.member {
+    margin-bottom: 10%;
 }
 
 /* CSS for name of members picture */
