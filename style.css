@@ -41,7 +41,7 @@ header-component {
   background-color: pink;
 }
 
-/* Below is from foundation.css */
+/* Below was from foundation.css */
 
 aside-component {
   grid-column: 1/2;
@@ -106,7 +106,7 @@ main {
   background-color: white;
 }
 
-/* Below is from navigation.css */
+/* Below was from navigation.css */
 
 header-component {
   background-color: lightgray;
