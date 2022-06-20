@@ -1,12 +1,9 @@
 header-component {
   display: grid;
   background-color: #004da8;
-  right: 0px;
-  left: 0px;
-  aligin-self: center;
+  align-self: center;
   min-height: 100px !important;
   border: black solid 2px;
-
 }
 
 aside-component {
@@ -18,7 +15,7 @@ aside-component {
 .aside-navigation {
   font-family: Arial, Helvetica, sans-serif;
   list-style-type: none;
-  font-size: 14px;
+  font-size: 13px;
   display: flex;
   font-weight: bold;
   text-size-adjust: auto;
@@ -48,6 +45,7 @@ nav {
   border: 2px solid white;
   padding: 5px;
   text-transform: uppercase;
+  transform:translateY(25%);
   color: white;
   font-size: 12px;
   letter-spacing: 1px;
@@ -76,6 +74,8 @@ nav {
 .header-navigation .nav-item {
   margin-left: 70px;
   list-style-type: none;
+  color: black;
+  border-color: black;
 }
 
 .header-navigation .nav-item .sub-nav-items {
@@ -90,13 +90,16 @@ nav {
   color: #004da8;
 }
 
-.nav-item:hover .sub-nav-items .sub-item {
+.header-navigation .nav-item:hover a{
+  color:black;
+}
+
+.header-navigation .nav-item:hover .sub-nav-items .sub-item {
   background-color: #004da8;
   width: 125px;
   border: 2px solid black;
   padding: 2px;
 }
-
 
 .nav-item:hover .sub-nav-items .sub-item a {
   color: black;
@@ -106,10 +109,12 @@ nav {
   list-style-type: none;
   position: absolute;
   top: 25px;
-  display: none;
   font-size: 12px;
 }
 
+.header-navigation .sub-nav-items{
+  display: none;
+}
 .sub-nav-items li {
   width: 130px;
   padding-top: 10px;
@@ -121,13 +126,10 @@ nav {
   padding-left: 0px;
 }
 
-.nav-item .sub-nav-items .sub-item:hover {
-  background-color: black;
-
-}
 
 .nav-item .sub-nav-items .sub-item:hover a {
-  color: #004da8
+  color: white;
+
 }
 
 .nav-item:hover .sub-nav-items {
@@ -138,4 +140,12 @@ a:link,
 a:visited {
   text-decoration: none;
   color: white;
+}
+
+.aside-navigation a:link {
+  color:black;
+}
+
+.aside-navigation a:visited {
+  color: black;
 }
