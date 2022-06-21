@@ -1,0 +1,41 @@
+#page-body{
+    background-color: #d19797;   
+}
+#inner-page-body{
+    background-image: url(/images/member-photos/EvelynPhoto/EvelynPage_Background.jpg);
+    background-position:100%;
+    background-attachment: fixed;
+    background-size: 95%;
+}
+
+img {
+    width:27%; 
+    object-fit: cover;
+    border-radius: 100%;
+    float: right;
+    margin-left: 8%;
+}
+article {
+    margin: 5px;
+    width: 90%;
+    float: right;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.479);
+}
+li {
+    margin-left: 30px;
+}
+
+/* Text Format */
+h2, h3 {
+    font-family: Georgia, serif;
+}
+h3{
+    color:rgba(7, 24, 47, 0.829);
+    text-align: center;
+}
+b {
+    color:rgb(76, 129, 126);
+}
+
+  
