@@ -1,0 +1,110 @@
+/* Added this for styling margin, padding, and box-sizing individually (Francisco) */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*CSS for html*/
+html {
+    height: 100%;
+    min-width: 710px;
+    overflow: auto;
+    font-size: 16px;
+    font-family: "Tahoma", "Courier New", sans-serif;
+}
+
+/*CSS for body*/
+body{
+    height:100%;
+
+    overflow: auto;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    display: grid;
+    grid-template-rows: 10vh 87vh 3vh;
+    grid-template-columns: 1.5fr 8.5fr;
+
+    /*BACKGROUND COLOR TO SHOW WHERE THIS IS LOCATED ON PAGE*/
+    background-color: blue;
+}
+
+/*CSS for header (top navigation bar)*/
+header-component{
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 2vw;
+
+    /*BACKGROUND COLOR TO SHOW WHERE THIS IS LOCATED ON PAGE*/
+    background-color: pink;
+}
+
+/*CSS for aside (side bar)*/
+aside-component{
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 2vw;
+
+    /*BACKGROUND COLOR TO SHOW WHERE THIS IS LOCATED ON PAGE*/
+    background-color: greenyellow;
+}
+
+/*CSS for footer*/
+footer-component {
+    grid-column: 1/3;
+    grid-row: 3/4;
+
+    background-color: rgb(34, 35, 60);
+}
+
+/*CSS for main (contains page body and inner page body)*/
+main{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 100%;
+    width: 100%;
+
+    overflow: auto;
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 2vw;
+
+    /*BACKGROUND COLOR TO SHOW WHERE THIS IS LOCATED ON PAGE*/
+    background-color: aqua;
+
+}
+
+/*CSS for page-body (contains inner page body; allows a margin to be introduced without buggy scrollbars)*/
+#page-body{
+    min-height: 100%;
+    width: 100%;
+    display: grid;
+
+    grid-template-rows: 1fr 24fr 1fr;
+    grid-template-columns: 1fr 19fr 1fr;
+
+}
+
+/*CSS for inner page body (This is the part where all the content is placed)*/
+#inner-page-body{
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+    padding: 3%;
+
+    font-family: "Tahoma", "Courier New", sans-serif;
+    font-size: 2vw;
+
+    /*BACKGROUND COLOR TO SHOW WHERE THIS IS LOCATED ON PAGE*/
+    background-color: white;
+
+}

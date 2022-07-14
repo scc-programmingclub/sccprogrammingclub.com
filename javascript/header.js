@@ -7,7 +7,7 @@ class Header extends HTMLElement {
         this.innerHTML = `
         <nav>
             <ul class="header-navigation">
-                <li class="club-name">Seattle Central College<br>Programming Club</li>
+                <li class="club-name">Seattle Central <br> Programming Club</li>
                 <li class="nav-item"><a href="#">Contact</li>
                 <li class="nav-item"><a href="#">Members</li>
                 <li class="nav-item"><a href="#">Socials</li>
@@ -17,5 +17,6 @@ class Header extends HTMLElement {
         `
     }
 }
+
 
 customElements.define("header-component", Header);
