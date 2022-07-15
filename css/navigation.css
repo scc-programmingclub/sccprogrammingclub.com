@@ -149,3 +149,7 @@ a:visited {
 .aside-navigation a:visited {
   color: black;
 }
+
+.sub-item {
+  padding-left: 3.5vh;
+}

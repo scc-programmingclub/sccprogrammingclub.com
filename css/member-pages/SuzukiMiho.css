@@ -1,0 +1,25 @@
+img {
+    max-width: 40%;
+    margin: 0.7em auto;
+}
+
+h1, h2 {
+    margin: 0.7em 0;
+}
+
+.pastwork {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.pastwork ul {
+    list-style: disc;
+    padding-left: 15px;
+    margin-top: 0;
+    margin-left: 4%;
+}
+
+.pastwork li {
+    padding-bottom: 2%;
+}
