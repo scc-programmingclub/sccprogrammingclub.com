@@ -22,10 +22,10 @@ aside-component {
   justify-content: space-around;
 }
 
-img {
+aside-component img {
   width: 20px;
   padding-right: 5px;
-  transform: translateY(20%);
+  /*transform: translateY(20%);*/
   filter: brightness(80%);
   border-radius: 40px 70px 70px 40px;
 }

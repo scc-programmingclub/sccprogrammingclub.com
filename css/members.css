@@ -36,6 +36,10 @@ h1 {
     margin-bottom: 10%;
 }
 
+.member .member-name {
+    font-size: 1vh;
+}
+
 /* CSS for name of members picture */
 .member h3 {
     margin-bottom: 0.5em;
@@ -50,7 +54,7 @@ h1 {
 /* CSS for margin the left edge of the past member */
 .past-members{
     display: flex;
-    align-items: left;
+    /*align-items: left;*/
     flex-direction: column;
 }
 

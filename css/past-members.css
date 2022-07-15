@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 15vw);
-    grid-template-rows: repeat(auto-fit,40vh);
+    /*grid-template-rows: repeat(auto-fit,40vh);*/
     grid-row-gap: 10vh;
     grid-column-gap: 1vw;
     justify-content: center;
@@ -26,6 +26,10 @@
 .photo {
     grid-row-start: row2-start;
     grid-row-end: 7;
+}
+
+img{
+    transform: translateY(0%);
 }
 
 .quote {
