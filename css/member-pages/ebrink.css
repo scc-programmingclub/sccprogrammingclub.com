@@ -18,21 +18,21 @@ main {
     padding: 2vh;
 }
 
-h1, h2, h3 {
+.inner-page-body h1, h2, h3 {
     text-align: center;
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-h1 {
+.inner-page-body h1 {
     font-size: 7vh;
 }
 
-h3 {
+.inner-page-body h3 {
     font-size: 5vh;
     text-align: left;
 }
 
-p {
+.inner-page-body p {
     padding: .5vw 0vw;
     font-family: 'Noto Sans', sans-serif;
     font-size: 3vh;
@@ -40,7 +40,7 @@ p {
     text-justify: inter-word;
 }
 
-img {
+.inner-page-body img {
     width: 20vw;
     height: 20vw;
     float: left;
