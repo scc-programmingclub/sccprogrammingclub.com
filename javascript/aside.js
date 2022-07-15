@@ -13,7 +13,7 @@ class Aside extends HTMLElement {
                 <li class="nav-item" ><a href="#"><img class=members_icon" src="/sccprogrammingclub.com/images/css_icons/members.png" alt="members_icon" style="transform: translateY(20%)">Members</a>
                     <ul class="sub-nav-items">
                         <li class="sub-item"><a href="/sccprogrammingclub.com/html/past-members.html">Past Members</a></li>
-                        <li class="sub-item"><a href="/sccprogrammingclub.com/html/members.html">Members</a></li>
+                        <li class="sub-item"><a href="/sccprogrammingclub.com/html/2021-2022members.html">Members</a></li>
                     </ul>
                 </li>
             </ul>  

@@ -13,7 +13,7 @@ class Header extends HTMLElement {
                 <li class="nav-item"><a href="#">Members</a>
                     <ul class="sub-nav-items">
                         <li class="sub-item"><a href="/sccprogrammingclub.com/html/past-members.html">Past Members</a></li>
-                        <li class="sub-item"><a href="/sccprogrammingclub.com/html/members.html">Current Members</a></li>
+                        <li class="sub-item"><a href="/sccprogrammingclub.com/html/2021-2022members.html">Current Members</a></li>
                     </ul>
                 </li>
                 <li class="nav-item"><a href="#">Socials</a></li>
