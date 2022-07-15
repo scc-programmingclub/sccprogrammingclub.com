@@ -1,30 +1,21 @@
+body {
+    width: 100%;
+}
+
 main {
-    width: 100%; 
-    background: linear-gradient(to right, darkgray, lightgray);
+    width: 100%;
 }
 
 .page-body {
     width: 100%;
     background: #5f66f6;
-    /* border-radius: 10px; */
 }
 
 .inner-page-body {
     box-sizing: border-box;
     color: #E6FAFC;
     width: 100%;
-    height: 80vh;
-    border-radius: 10px;
-    padding: 0vh 0vh 0vh 2vh;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "text text text projects"
-    "text text text projects"
-    "text text text projects"
-    "text text text projects"
-    ;
+    padding: 2vh;
 }
 
 h1, h2, h3 {
@@ -45,52 +36,20 @@ p {
     padding: .5vw 0vw;
     font-family: 'Noto Sans', sans-serif;
     font-size: 3vh;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-#pic-temp {
-    background: linear-gradient(to right, darkgray, lightgray);
-    color: #000;
+img {
     width: 20vw;
     height: 20vw;
     float: left;
     margin: 2vh 2vh 0vh 0vh;
+    border: white dashed 2px;
 }
 
-#projects li {
-    list-style: none;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    padding: 2vh 0;
-    background: #246EB9;
-    height: 7vh;
-    width: 10vh;
-    border-radius: 50%;
-    margin: 1.5vh .5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-}
-
-#projects li a {
-    color: #fff;
-}
-
-#projects li:hover {
-    color: #F5EE9E;
-    background: rgb(227, 96, 96);
-}
-
-#projects {
-    grid-area: projects;
-    padding: 1vh;
-}
-
-#text {
-    grid-area: text;
-    overflow: scroll;
-}
-
-#text a {
+.inner-page-body a {
+    color: rgb(11, 11, 11);
     display: inline-block;
     padding: .75vw;
     text-decoration: none;
@@ -103,13 +62,9 @@ p {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
-#text a:hover {
-    color: #F5EE9E;
-    background: rgb(227, 96, 96);
-}
-
-#top, #one, #two, #three, #four, #five, #six {
-    visibility: hidden;
+.inner-page-body a:hover {
+    color: rgb(11, 11, 11);
+    background: #C8FFBE; 
 }
 
 #about-links {
@@ -121,41 +76,16 @@ p {
     margin: 1vh;
 }
 
-.helvetica {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 a:visited {
-    color: rgb(55, 53, 53);
+    color: rgb(57, 57, 57);
 }
 
-@media (max-width: 500px) {
-    #pic-temp {
+@media (max-width: 768px) {
+    img {
         float: none;
-        width: 60vw;
-        height: 60vw;
-        margin: auto;
-    }
-
-    #projects {
-        display: none;
-    }
-
-    .inner-page-body {
-        box-sizing: border-box;
-        color: #E6FAFC;
-        width: 100%;
-        height: 80vh;
-        border-radius: 10px;
-        padding: 0vh 0vh 0vh 2vh;
-        display: grid;
-        grid-template-columns: 3fr;
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "text text text"
-        "text text text"
-        "text text text"
-        "text text text"
-        ;
+        width: 50vw;
+        height: 50vw;
+        display: block;
+        margin: 4vh auto 4vh auto;
     }
 }
