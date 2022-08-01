@@ -27,7 +27,7 @@ body{
     grid-template-columns: 1.5fr 8.5fr;
 
     /*BACKGROUND COLOR TO SHOW WHERE THIS IS LOCATED ON PAGE*/
-    background-color: blue;
+    background-color: rgb(38, 38, 86);
 }
 
 /*CSS for header (top navigation bar)*/
